@@ -4,8 +4,16 @@ import { StaticImage } from "gatsby-plugin-image";
 
 // styles
 const globalStyles = css`
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
   body {
     background-color: #111111;
+  }
+  * {
+    box-sizing: border-box;
   }
 `;
 const pageStyles = css`
